@@ -1,12 +1,14 @@
 import './App.css'
+import Recipe from './components/Recipe/Recipe'
+import Recipes from './components/Recipes/Recipes'
 
 function App() {
 
 
   return (
     <>
-      <h1 className='text-5xl'>React</h1>
-    
+      <Recipes></Recipes>
+      
     </>
   )
 }

@@ -1,0 +1,109 @@
+[
+    {
+      "recipe_id": "1",
+      "recipe_image": "https://i.ibb.co/4mMM1QS/carbonara-pasta-spaghetti-with-pancetta-egg-parmesan-cheese-cream-sauce-old-dark-black-wooden-table.jpg",
+      "recipe_name": "Classic Spaghetti Carbonara",
+      "short_description": "A timeless Italian pasta dish with creamy sauce and crispy bacon.",
+      "ingredients": [
+        "350g spaghetti",
+        "150g pancetta or guanciale, diced",
+        "3 large eggs",
+        "50g grated Parmesan cheese",
+        "50g grated Pecorino Romano cheese",
+        "Freshly ground black pepper",
+        "Salt to taste"
+      ],
+      "preparing_time": "20 min",
+      "calories": "450 calories"
+    },
+    {
+      "recipe_id": "2",
+      "recipe_image": "https://i.ibb.co/YBL0GjH/ivan-torres-MQUqbmsz-GGM-unsplash.jpg",
+      "recipe_name": "Homemade Margherita Pizza",
+      "short_description": "A classic pizza with simple but flavorful ingredients, perfect for pizza night.",
+      "ingredients": [
+        "300g pizza dough",
+        "200g fresh mozzarella cheese, sliced",
+        "2 large tomatoes, thinly sliced",
+        "Fresh basil leaves",
+        "2 tablespoons olive oil",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "25 min",
+      "calories": "320 calories"
+    },
+    {
+      "recipe_id": "3",
+      "recipe_image": "https://i.ibb.co/RBG46Tx/healthy-vegetarian-risotto-with-fresh-parsley-garnish-generated-by-ai.jpg",
+      "recipe_name": "Creamy Mushroom Risotto",
+      "short_description": "A comforting and creamy risotto loaded with flavorful mushrooms.",
+      "ingredients": [
+        "300g Arborio rice",
+        "200g mixed mushrooms (such as cremini, shiitake, and oyster), sliced",
+        "1 onion, finely chopped",
+        "2 cloves garlic, minced",
+        "1 liter vegetable broth",
+        "100ml dry white wine",
+        "50g grated Parmesan cheese",
+        "2 tablespoons butter",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "35 min",
+      "calories": "380 calories"
+    },
+    {
+      "recipe_id": "4",
+      "recipe_image": "https://i.ibb.co/4WxfJ2Z/green-curry-bowl-spices-wooden-table.jpg",
+      "recipe_name": "Thai Green Curry",
+      "short_description": "A fragrant and spicy Thai curry with tender chicken and vegetables.",
+      "ingredients": [
+        "400g chicken breast, sliced",
+        "200ml coconut milk",
+        "100g Thai green curry paste",
+        "1 red bell pepper, sliced",
+        "1 green bell pepper, sliced",
+        "1 onion, sliced",
+        "Handful of Thai basil leaves",
+        "2 tablespoons fish sauce",
+        "1 tablespoon brown sugar",
+        "Salt to taste"
+      ],
+      "preparing_time": "40 min",
+      "calories": "420 calories"
+    },
+    {
+      "recipe_id": "5",
+      "recipe_image": "https://i.ibb.co/VTM2C5f/greek-salad-with-fresh-vegetables-feta-cheese-kalamata-olives.jpg",
+      "recipe_name": "Caprese Salad",
+      "short_description": "A refreshing and simple salad featuring ripe tomatoes, fresh mozzarella, and basil leaves.",
+      "ingredients": [
+        "3 large tomatoes, sliced",
+        "200g fresh mozzarella cheese, sliced",
+        "Handful of fresh basil leaves",
+        "2 tablespoons balsamic vinegar",
+        "2 tablespoons extra virgin olive oil",
+        "Salt and pepper to taste"
+      ],
+      "preparing_time": "15 min",
+      "calories": "250 calories"
+    },
+    {
+      "recipe_id": "6",
+      "recipe_image": "https://i.ibb.co/6bCnrVJ/chocolate-chip-gluten-free-cookies.jpg",
+      "recipe_name": "Chocolate Chip Cookies",
+      "short_description": "Classic homemade cookies with gooey chocolate chips, perfect for dessert or snacking.",
+      "ingredients": [
+        "200g all-purpose flour",
+        "150g unsalted butter, softened",
+        "100g granulated sugar",
+        "100g brown sugar",
+        "1 large egg",
+        "1 teaspoon vanilla extract",
+        "150g chocolate chips",
+        "1/2 teaspoon baking soda",
+        "1/2 teaspoon salt"
+      ],
+      "preparing_time": "30 min",
+      "calories": "150 calories per cookie"
+    }
+  ]
