@@ -24,7 +24,7 @@ function App() {
       
       <div className='flex'>
         <Recipes handleWantCook={handleWantCook}></Recipes>
-        <Cooking wantCook={wantCooks}></Cooking>
+        <Cooking wantCooks={wantCooks}></Cooking>
       </div>
     </>
   )

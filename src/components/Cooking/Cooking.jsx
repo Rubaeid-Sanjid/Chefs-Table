@@ -1,25 +1,20 @@
 import PropTypes from 'prop-types';
+import WantCook from '../WantCook/WantCook';
 
 const Cooking = ({wantCooks}) => {
 
-    const {recipe_name, preparing_time, calories} = wantCooks;
-
     return (
         <div>
-            <h2 className='text-2xl border-b-2 pb-3 text-center'>Want to cook: {wantCook.length}</h2>
-            <div className='flex justify-between my-3'>
+            <h2 className='text-2xl border-b-2 pb-3 text-center'>Want to cook: {wantCooks.length}</h2>
+            <div className='flex my-3'>
                 <h3>Name</h3>
                 <h3>Time</h3>
                 <h3>Calories</h3>
             </div>
+
             {
-                wantCooks.map(wantCookItem => )
+                wantCooks.map((wantCookItem, idx) =><WantCook key={idx} wantCookItem={wantCookItem}></WantCook>)
             }
-            <div className='flex justify-between my-3'>
-                <h3>{recipe_name}</h3>
-                <h3>{preparing_time}</h3>
-                <h3>{calories}</h3>
-            </div>
             
             <h2 className='text-2xl border-b-2 pb-3 text-center'>Currently cooking: </h2>
             <div className='flex justify-between my-3'>
@@ -32,7 +27,7 @@ const Cooking = ({wantCooks}) => {
 };
 
 Cooking.propTypes = {
-    wantCook: PropTypes.object
+    wantCooks: PropTypes.object
 };
 
 export default Cooking;
