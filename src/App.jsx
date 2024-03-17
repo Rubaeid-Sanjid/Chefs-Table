@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Cooking from "./components/Cooking/Cooking";
 import Recipes from "./components/Recipes/Recipes";
+import Header from "./components/Header/Header";
 
 function App() {
   const [wantCooks, setWantCooks] = useState([]);
@@ -33,16 +34,18 @@ function App() {
   };
   return (
     <>
-      <div>
+      <Header></Header>
+
+      <div className="mt-12">
         <h2 className="text-4xl font-semibold text-center mb-6">Our Recipes</h2>
-        <p className="text-[#150B2B99] w-10/12 mx-auto text-center">
+        <p className="text-[#150B2B99] md:w-10/12 mx-auto text-center">
           Lorem ipsum dolor sit amet consectetur. Proin et feugiat senectus
           vulputate netus pharetra rhoncus. Eget urna volutpat curabitur
           elementum mauris aenean neque.
         </p>
       </div>
 
-      <div className="flex gap-6">
+      <div className="flex flex-col lg:flex-row gap-6">
         <Recipes handleWantCook={handleWantCook}></Recipes>
         <Cooking
           wantCooks={wantCooks}
