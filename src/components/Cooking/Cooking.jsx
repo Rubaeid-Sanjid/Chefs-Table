@@ -10,7 +10,7 @@ const Cooking = ({
   countCalories,
 }) => {
   return (
-    <div className="border-2 p-3 mt-5 rounded-xl w-2/5">
+    <div className="border-2 p-3 mt-5 rounded-xl lg:w-2/5">
       <h2 className="text-2xl border-b-2 pb-3 mt-2 text-center">
         Want to cook: {wantCooks.length}
       </h2>

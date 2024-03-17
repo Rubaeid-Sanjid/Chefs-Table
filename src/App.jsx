@@ -40,7 +40,7 @@ function App() {
       <Banner></Banner>
 
       <div className="mt-12">
-        <h2 className="text-4xl font-semibold text-center mb-6">Our Recipes</h2>
+        <h2 className="text-3xl lg:text-4xl font-semibold text-center mb-6">Our Recipes</h2>
         <p className="text-[#150B2B99] md:w-10/12 mx-auto text-center">
           Indulge in a symphony of flavors with Our Recipes. From savory
           classics to innovative creations, discover culinary delights that will

@@ -8,8 +8,8 @@ const Recipe = ({ recipe, handleWantCook }) => {
 
   return (
     <div>
-      <div className="card bg-base-100 shadow-xl">
-        <figure className="px-10 pt-10">
+      <div className="card bg-base-100 shadow-xl border-2">
+        <figure className="p-3 lg:px-8 lg:pt-8">
           <img
             src={recipe_image}
             alt={`${recipe_name}`}

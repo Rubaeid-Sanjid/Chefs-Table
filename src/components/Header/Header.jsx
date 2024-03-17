@@ -3,8 +3,8 @@ import { IoSearchOutline } from "react-icons/io5";
 
 const Header = () => {
   return (
-    <div className="navbar bg-base-100 mt-10">
-      <div className="navbar-start">
+    <div className="flex flex-col items-start lg:flex-row bg-base-100 mt-5 lg:mt-10">
+      <div className="lg:w-1/2">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
@@ -58,7 +58,7 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end gap-3">
+      <div className="flex justify-end lg:gap-3 lg:w-1/2">
         <label className="input rounded-full flex items-center gap-2 bg-[#150B2B0D]">
         <IoSearchOutline />
           <input type="text" className="grow" placeholder="Search" />
