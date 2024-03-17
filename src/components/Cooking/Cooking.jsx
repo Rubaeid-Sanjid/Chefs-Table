@@ -48,7 +48,7 @@ const Cooking = ({
           ></CurrentCook>
         ))}
       </div>
-      <div>
+      <div className="mt-6 flex gap-2 lg:gap-8 flex-col lg:flex-row">
         <h3>Total Time = {countTime}</h3>
         <h3>Total Calories = {countCalories}</h3>
       </div>
