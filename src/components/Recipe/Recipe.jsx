@@ -4,7 +4,7 @@ import { CiClock2 } from "react-icons/ci";
 
 const Recipe = ({ recipe, handleWantCook }) => {
 
-  const {recipe_image, recipe_name, short_description, ingredients, preparing_time, calories} = recipe;
+  const {recipe_id, recipe_image, recipe_name, short_description, ingredients, preparing_time, calories} = recipe;
 
   return (
     <div>
@@ -32,7 +32,7 @@ const Recipe = ({ recipe, handleWantCook }) => {
             <h3>{calories} calories</h3>
           </div>
           <div className="card-actions">
-            <button onClick={() => handleWantCook(recipe)} className="btn bg-[#0BE58A] rounded-3xl">Want to Cook</button>
+            <button onClick={() => handleWantCook(recipe_id, recipe)} className="btn bg-[#0BE58A] rounded-3xl">Want to Cook</button>
           </div>
         </div>
       </div>

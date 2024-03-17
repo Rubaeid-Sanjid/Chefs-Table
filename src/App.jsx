@@ -10,9 +10,13 @@ function App() {
   const [countTime, setCountTime] = useState(0);
   const [countCalories, setCountCalories] = useState(0);
 
-  const handleWantCook = (recipe) => {
+  const handleWantCook = (id, recipe) => {
     const newWantCooks = [...wantCooks, recipe];
-    setWantCooks(newWantCooks);
+
+    const isExist = wantCooks.find(item => item.recipe_id === id);
+    if(!isExist){
+      setWantCooks(newWantCooks);
+    }
   };
 
   const handlePreparing = (id, preparing, preparing_time, calories) => {

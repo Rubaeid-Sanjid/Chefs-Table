@@ -10,8 +10,8 @@ const Cooking = ({
   countCalories,
 }) => {
   return (
-    <div>
-      <h2 className="text-2xl border-b-2 pb-3 text-center">
+    <div className="border-2 p-3 mt-5 rounded-xl w-2/5">
+      <h2 className="text-2xl border-b-2 pb-3 mt-2 text-center">
         Want to cook: {wantCooks.length}
       </h2>
       <div className="flex gap-10 my-3">
@@ -26,6 +26,7 @@ const Cooking = ({
             key={idx}
             wantCookItem={wantCookItem}
             handlePreparing={handlePreparing}
+            idx={idx}
           ></WantCook>
         ))}
       </div>
@@ -43,12 +44,13 @@ const Cooking = ({
           <CurrentCook
             key={idx}
             currentCooksItem={currentCooksItem}
+            idx={idx}
           ></CurrentCook>
         ))}
       </div>
       <div>
         <h3>Total Time = {countTime}</h3>
-        <h3>Total Time = {countCalories}</h3>
+        <h3>Total Calories = {countCalories}</h3>
       </div>
     </div>
   );
