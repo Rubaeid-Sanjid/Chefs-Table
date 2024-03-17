@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import { RxAvatar } from "react-icons/rx";
 import { IoSearchOutline } from "react-icons/io5";
 
@@ -72,7 +71,5 @@ const Header = () => {
     </div>
   );
 };
-
-Header.propTypes = {};
 
 export default Header;

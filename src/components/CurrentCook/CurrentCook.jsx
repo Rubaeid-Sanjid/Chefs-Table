@@ -4,7 +4,7 @@ const CurrentCook = ({currentCooksItem, idx}) => {
     const {recipe_name, preparing_time, calories} = currentCooksItem;
 
     return (
-        <div className='flex justify-between gap-6 items-center my-3 bg-[#28282808] p-3'>
+        <div className='flex justify-between gap-6 items-center my-3 bg-[#28282808] p-3 rounded-2xl'>
             <h3>{idx + 1}</h3>
             <h3>{recipe_name}</h3>
             <h3>{preparing_time}</h3>
