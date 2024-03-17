@@ -8,7 +8,7 @@ const Recipe = ({ recipe, handleWantCook }) => {
 
   return (
     <div>
-      <div className="card w-96 bg-base-100 shadow-xl">
+      <div className="card bg-base-100 shadow-xl">
         <figure className="px-10 pt-10">
           <img
             src={recipe_image}
@@ -27,9 +27,9 @@ const Recipe = ({ recipe, handleWantCook }) => {
           </div>
           <div className="items-center text-[#282828CC] flex gap-2 mb-2">
             <CiClock2 /> 
-            <h3>{preparing_time}</h3>
+            <h3>{preparing_time} minutes</h3>
             <AiOutlineFire /> 
-            <h3>{calories}</h3>
+            <h3>{calories} calories</h3>
           </div>
           <div className="card-actions">
             <button onClick={() => handleWantCook(recipe)} className="btn bg-[#0BE58A] rounded-3xl">Want to Cook</button>

@@ -14,13 +14,11 @@ const Recipes = ({handleWantCook}) => {
     },[])
 
   return (
-    <div>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 p-3 w-10/12">
         {
             recipes.map((recipe, idx) => <Recipe key={idx} recipe={recipe} handleWantCook={handleWantCook}></Recipe>)
         }
       </div>
-    </div>
   );
 };
 

@@ -5,11 +5,20 @@ import Recipes from './components/Recipes/Recipes'
 
 function App() {
 
-  const [wantCooks, setWantCook] = useState([])
+  const [wantCooks, setWantCooks] = useState([]);
+  const [currentCooks, setCurrentCooks] = useState([]);
 
   const handleWantCook = (recipe) =>{
-    const newWantCook = [...wantCooks, recipe]
-    setWantCook(newWantCook)
+    const newWantCooks = [...wantCooks, recipe];
+    setWantCooks(newWantCooks);
+  }
+
+  const handlePreparing = (id, preparing) =>{
+    const newCurrentCooks = [...currentCooks, preparing];
+    setCurrentCooks(newCurrentCooks);
+
+    const remainingWantCook = wantCooks.filter(wantCookItem => wantCookItem.recipe_id !== id);
+    setWantCooks(remainingWantCook);
   }
   return (
     <>
@@ -22,9 +31,9 @@ function App() {
         </p>
       </div>
       
-      <div className='flex'>
+      <div className='flex gap-6'>
         <Recipes handleWantCook={handleWantCook}></Recipes>
-        <Cooking wantCooks={wantCooks}></Cooking>
+        <Cooking wantCooks={wantCooks} handlePreparing={handlePreparing} currentCooks={currentCooks}></Cooking>
       </div>
     </>
   )
